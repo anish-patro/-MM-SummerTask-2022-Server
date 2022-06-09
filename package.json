@@ -1,0 +1,18 @@
+{
+  "name": "backend_task2",
+  "version": "1.0.0",
+  "description": "Monday Morning backend task 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "G.Anish Kumar Patro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0"
+  }
+}
