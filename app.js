@@ -6,10 +6,7 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  "mongodb+srv://anish:anish@backendtask.fbnr2.mongodb.net/?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
-);
+mongoose.connect('mongodb+srv://anish:anish@task2.xpuye.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true})
 
 const createRoutes = require("./api/routes/articles");
 
